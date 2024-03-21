@@ -1,0 +1,173 @@
+
+/* Basic CSS to adjust width height is applied. */
+
+#top-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#top-section-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#logo-img-div img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+#home-btn{
+    position: relative;
+    padding-top: 2%;
+    margin-left: 3%;
+}
+
+#home-btn button{
+    border: 0px;
+    background-color: unset;
+    font-size: larger;
+    margin-top: 11%;
+    
+}
+
+#fav-btn{
+    position: relative;
+    padding-top: 2%;
+    margin-left: 3%;
+    
+}
+
+#fav-btn button{
+    border: 0px;
+    background-color: unset;
+    font-size: larger;
+    margin-top: 9%;
+}
+
+#search-bar{
+    height: 100%;
+}
+
+#Search-bar-input{
+    height: 35px;
+    margin-top: 10%;
+    border-radius: 8%;
+}
+
+#search-bar button{
+    height: 30px;
+}
+
+#main-content{
+    display: initial;
+}
+
+#Carasoul-Section{
+    height: 80%;
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+#img-sec{
+    height: 350px;
+}
+
+#food-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80%;
+    width: 90vw;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+#Food-item div{
+    display: inline-block;
+    margin-right: 4px;
+    
+}
+
+#food-thumnail{
+    height: 100px;
+    
+}
+
+#Searched-Result-Note{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#search-container{
+    display: none;
+    height: 80%;
+    width: 90vw;
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+
+#fav-container{
+    display: none;
+}
+
+
+
+#cross-mark{
+    height: 15px;
+    width: 15px;
+}
+
+
+#Criteria{
+    margin-left: 5%;
+    height: 80%;
+    width: 90vw;
+    margin-top: 1%;
+}
+
+#Types{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Types div{
+    
+    height: 90px;
+    width: 300px;
+    background-color: lightblue;
+    margin-top: 1%;
+    margin-right: 3%;
+    text-align: center;
+    padding-top: 2.5%;
+    box-shadow: 0px 0px 12px 2px rgb(38, 4, 231);
+    
+    
+}
+
+#contact-section{
+    margin-left: 5%;
+    height: 30vh;
+    width: 90vw;
+    margin-top: 3%;
+    background-color: rgb(88, 82, 82);
+}
+
+
+#details-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#details-contact div{
+    margin-left: 3%;
+    
+}
